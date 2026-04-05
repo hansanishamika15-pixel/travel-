@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact - Sri Lanka Tourism</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header>
+  <div class="brand">Sri Lanka — Contact</div>
+  <nav><ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="destinations.html">Destinations</a></li>
+    <li><a href="culture.html">Culture &amp; Heritage</a></li>
+    <li><a href="travel-tips.html">Travel Tips</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul></nav>
+</header>
+
+<main class="container">
+  <section class="section">
+    <h2>Contact Us</h2>
+    <p>Have questions about planning your trip? Send us a message and we'll respond shortly (demo).</p>
+    <form action="php/contact-process.php" method="POST">
+      <label>Name:<br><input type="text" name="name" required></label>
+      <label>Email:<br><input type="email" name="email" required></label>
+      <label>Message:<br><textarea name="message" rows="6" required></textarea></label>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <section class="section">
+    <h3>Other ways to reach us</h3>
+    <p>Travel Hotline (demo): +94 77 123 4567<br>Email: info@tourism-demo.local</p>
+  </section>
+</main>
+
+<footer><div class="container"><p>&copy; 2025 Sri Lanka Tourism</p></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
